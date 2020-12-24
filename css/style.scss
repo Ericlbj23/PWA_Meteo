@@ -1,0 +1,175 @@
+body{
+    background-image: url("../img/luke-chesser-3rWagdKBF7U-unsplash (1).jpg");
+    overflow-x: hidden;
+}
+
+.container-fluid {
+
+    #refresh{
+        color: white;
+    }
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+
+    .daycurrent{
+        margin-bottom: 80px;
+        margin-top: 30px;
+
+        .img-line{
+            margin-left: -20px;
+            display: flex;
+        }
+
+        img{
+            width: 180px;
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+
+        .vl{
+            padding-left: 0;
+            border-left: 1px solid white;
+            height: 80px;
+            margin-top: 50px;
+        }
+
+        .info{
+            padding-top: 40px;
+            margin-left: 30px;
+            padding-right: 0;
+
+            h2{
+                font-weight: 120;
+            }
+
+            h5{
+                font-weight: 200;
+            }
+          
+        
+        }
+
+        .location{
+            padding-top: 25px;
+            text-align: center;
+
+            i{
+                padding-left: 5px;
+            }
+
+        }
+        
+    }
+    
+}
+
+form{
+    padding-top: 25px;
+    .form-control {
+        border: 0;
+        border-bottom: 1px solid white;
+        background:transparent;
+        outline: none;
+    }
+    #go{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: white;
+    }
+}
+
+
+.days{
+    .icone{
+        padding-left: 25px;
+
+        img{
+            width: 60px !important;
+            height: 60px !important;
+        }
+    
+    }
+   
+
+    .date, .temperature{
+        padding-top: 15px;
+
+        .temperature-min{
+            opacity: 0.5;
+        }
+
+    }
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+// .bg-icone_meteo_02 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -10px -10px;
+// }
+
+
+// .bg-icone_meteo_03 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -351px -10px;
+// }
+
+
+// .bg-icone_meteo_04 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -10px -296px;
+// }
+
+
+// .bg-icone_meteo_05 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -351px -296px;
+// }
+
+
+// .bg-icone_meteo_06 {
+//     width: 320px; height: 266px;
+//     background: url('../img/css_sprites.png') -351px -582px;
+// }
+
+
+// .bg-icone_meteo_07 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -692px -10px;
+// }
+
+
+// .bg-icone_meteo_08 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -692px -296px;
+// }
+
+
+// .bg-icone_meteo_09 {
+//     width: 320px; height: 266px;
+//     background: url('../img/css_sprites.png') -691px -582px;
+// }
+
+
+// .bg-icone_meteo_10 {
+//     width: 321px; height: 266px;
+//     background: url('../img/css_sprites.png') -10px -582px;
+// }

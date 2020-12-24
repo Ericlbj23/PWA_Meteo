@@ -1,0 +1,99 @@
+body {
+  background-image: url("../img/luke-chesser-3rWagdKBF7U-unsplash (1).jpg");
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container-fluid #refresh {
+  color: white;
+}
+
+.container-fluid .daycurrent {
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.container-fluid .daycurrent .img-line {
+  margin-left: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-fluid .daycurrent img {
+  width: 180px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.container-fluid .daycurrent .vl {
+  padding-left: 0;
+  border-left: 1px solid white;
+  height: 80px;
+  margin-top: 50px;
+}
+
+.container-fluid .daycurrent .info {
+  padding-top: 40px;
+  margin-left: 30px;
+  padding-right: 0;
+}
+
+.container-fluid .daycurrent .info h2 {
+  font-weight: 120;
+}
+
+.container-fluid .daycurrent .info h5 {
+  font-weight: 200;
+}
+
+.container-fluid .daycurrent .location {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.container-fluid .daycurrent .location i {
+  padding-left: 5px;
+}
+
+form {
+  padding-top: 25px;
+}
+
+form .form-control {
+  border: 0;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+}
+
+form #go {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.days .icone {
+  padding-left: 25px;
+}
+
+.days .icone img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.days .date, .days .temperature {
+  padding-top: 15px;
+}
+
+.days .date .temperature-min, .days .temperature .temperature-min {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
